@@ -18,7 +18,7 @@ export default function Contact() {
                         <SocialIcon
                         url="https://github.com/maesangaline/"
                         network="github"
-                        style={{ bgColor: #F5F5F5,  height: 100, width: 100 }}
+                        style={{ bgColor: '#F5F5F5',  height: 100, width: 100 }}
                         alt="my github" /> &nbsp; &nbsp;
                         <SocialIcon 
                         url="https://www.linkedin.com/in/maesangaline"
