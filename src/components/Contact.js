@@ -1,6 +1,7 @@
 // src/components/Contact.js
 
 import React from "react";
+import { SocialIcon } from "react-social-icons";
 
 export default function Contact() {
     return (
@@ -13,6 +14,14 @@ export default function Contact() {
                     src="./github-icon.svg" 
                     alt="my github profile" />
                 </a>
+                <SocialIcon
+                url="https://github.com/maesangaline/"
+                network="github"
+                style={{ height: 50, width: 50 }} />
+                <SocialIcon 
+                url="https://www.linkedin.com/in/maesangaline"
+                network="linkedin"
+                style={{ height: 50, width: 50 }} />
                 <a 
                 href="https://www.linkedin.com/in/maesangaline">
                         <img 
