@@ -13,21 +13,18 @@ export default function Contact() {
                     I am looking for job opportunities and would love to connect!
                     </h1>
                     <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
-                    I am: <br />
-                    reliable, punctual, exceptionally organized, and dedicated to always continuing to improve.
+                    I am: reliable, punctual, exceptionally organized, and dedicated to always continuing to improve.
                     </p>
-                        <div className="flex flex-wrap lg:w-4/5 sm:mx-auto sm:mb-2 -mx-2">
-                            <SocialIcon
-                            url="https://github.com/maesangaline/"
-                            network="github"
-                            style={{ height: 100, width: 100 }}
-                            alt="my github" />
-                            <SocialIcon 
-                            url="https://www.linkedin.com/in/maesangaline"
-                            network="linkedin"
-                            style={{ height: 100, width: 100 }} 
-                            alt="my linkedin"/>
-                   </div>
+                        <SocialIcon
+                        url="https://github.com/maesangaline/"
+                        network="github"
+                        style={{ fgColor: '#F5F5F5',  height: 100, width: 100 }}
+                        alt="my github" /> &nbsp; &nbsp;
+                        <SocialIcon 
+                        url="https://www.linkedin.com/in/maesangaline"
+                        network="linkedin"
+                        style={{ height: 100, width: 100 }} 
+                        alt="my linkedin"/>
             </div>
         </section>
     )

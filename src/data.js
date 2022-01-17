@@ -40,4 +40,6 @@ export const skills = [
   "WordPress",
   "Search Engine Optimization",
   "PHP + MySQL",
+  "Adobe Photoshop &amp; Illustrator",
+  "Content Management",
 ];

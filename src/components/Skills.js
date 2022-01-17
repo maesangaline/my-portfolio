@@ -14,8 +14,8 @@ export default function Skills() {
                         Skills &amp; Technologies
                         </h1>
                         <p className="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto">
-                        Below are skills that I excel at. But learning never ends. I am currently working on bettering my skills with React, MongoDB, Spring, Shopify, and Magento.
-                        Take this site for example! This portfolio was built using React and Tailwind CSS.
+                        Learning never ends. While below I have listed some of the skills that I excel at, I am currently working on bettering my skills with React, MongoDB, Spring, Shopify, and Magento.
+                        For example, this portfolio was built using React and Tailwind CSS.
                         </p>
                         <div className="flex flex-wrap lg:w-4/5 sm:mx-auto sm:mb-2 -mx-2">
                             {skills.map((skill) => (
