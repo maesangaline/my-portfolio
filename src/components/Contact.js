@@ -7,7 +7,7 @@ import { SocialIcon } from "react-social-icons";
 export default function Contact() {
     return (
         <section id="contact">
-            <div className="text-center mb-20">
+            <div className="text-center">
                 <ChatAlt2Icon className="w-10 inline-block mb-4" />
                     <h1 className="sm:text-4xl text-3xl font-medium title-font text-white mb-4">
                     I am looking for job opportunities and would love to connect!
